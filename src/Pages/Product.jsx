@@ -51,6 +51,7 @@ const Product = () => {
             />
           </div>
         </div>
+        <div></div>
 
         {/* Filter Section */}
         <div className="mb-8 pb-6 border-b-4 border-black">
