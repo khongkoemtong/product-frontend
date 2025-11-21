@@ -40,7 +40,7 @@ const Product = () => {
       <div className="max-w-[90%] mx-auto px-4 py-8">
         {/* Search Bar */}
         <div className="mb-8">
-          <div className="relative max-w-2xl">
+          <div className="relative  w-full">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-600" size={20} />
             <input
               type="text"
@@ -71,12 +71,7 @@ const Product = () => {
               ))}
             </div>
             
-            <select className="px-4 py-2 border-2 border-black bg-white text-black cursor-pointer">
-              <option>Sort by: Featured</option>
-              <option>Price: Low to High</option>
-              <option>Price: High to Low</option>
-              <option>Newest</option>
-            </select>
+           
           </div>
         </div>
 

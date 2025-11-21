@@ -40,7 +40,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-white text-black container mx-auto w-auto p-3">
+    <div className="bg-white text-black container mx-auto w-auto ">
       {/* Hero Section */}
       <section className="relative w-auto h-[60vh] sm:h-[70vh] md:h-[80vh] xl:h-[90vh] overflow-hidden">
         <div 

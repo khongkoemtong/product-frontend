@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { ShoppingCart, Eye, EyeOff, Mail, Lock, ArrowRight } from 'lucide-react';
 import { Navigate, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
@@ -189,9 +191,11 @@ export default function Login() {
             <div className="mt-8 text-center">
               <p className="text-gray-600">
                 Don't have an account?{' '}
+               <Link to="/register">
                 <a href="/register" className="font-semibold text-black hover:underline">
                   Sign Up
                 </a>
+               </Link>
               </p>
             </div>
           </div>
